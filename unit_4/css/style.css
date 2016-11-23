@@ -1,18 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:300|Scope+One');
+
 body {
-	font-family: Helvetica, arial, sans-serif; 
+	font-family: 'Scope One', serif; 
 	font-size: 16px;
 	color: #44473C;
 	margin: 30px;
-
 }
 
 a {
 	color: #84D4B9;
 	text-decoration: none;
+	font-weight: bold;
 }
 
 nav a{
 	color: #FFA5A0;
+	font-family: 'Oswald', sans-serif;
 	font-style: italic;
 	text-align: left;
 	margin-right: 4em;
@@ -22,6 +25,20 @@ nav a{
 section {
 	text-align: center;
 }
+
+p{
+	width: 30em;
+	margin: auto;
+}
+
+ul{
+	padding: 15px;
+}
+
+h1 {
+	font-family: 'Oswald', sans-serif;
+}
+
 
 h3{
 	font-size: 2em;
@@ -33,7 +50,6 @@ h3{
 		height: 500px;
 	    background-repeat: no-repeat;
 	    background-size: cover;
-	    font-weight: bold;
 	    font-style: italic;
 	 }
 
@@ -42,8 +58,6 @@ h3{
 		padding: 30px;
 	}
 
-ul{
-	padding: 15px;
-}
+
 
 
