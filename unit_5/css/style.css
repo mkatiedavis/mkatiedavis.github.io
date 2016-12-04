@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:300|Scope+One');
+
+body {
+	font-family: 'Scope One', serif; 
+	font-size: 1em;
+	color: #44473C;
+	margin: 2em;
+}
+
+/*.wrapper {
+	width: 1080px;
+	margin-left: auto;
+	margin-right: auto;*/
+}
+
+header {
+/*	width: 100%;*/
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+	h1 {
+		font-family: 'Oswald', sans-serif;
+		font-size: 2.5em;
+		/*margin: .5em 0;*/
+	}
+
+nav {
+	/*padding: 10px;
+	width: 100%;
+	margin: 0 auto;
+	background-color: #44473C;*/
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+nav a{
+	/*color: #FFA5A0;*/
+	color: white;
+	font-family: 'Scope One', serif; 
+	font-style: italic;
+/*	display: block;
+	width: 180px;
+	float: left;*/
+	text-align: justify;
+	padding: .5em .5em .5em 0;
+	margin-right: 6em;
+}
+
+nav a:hover {
+	color: #FFA5A0
+}
+
+.hero {
+	/*width: 100%;
+	padding: 10px;*/
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#hero-image {
+	width: 100%;
+}
+
+h2{
+	font-family: 'Oswald', sans-serif;
+}
+
+.stories {
+	/*text-align: left;
+	/*padding: 10px;*/
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+a {
+	color: #84D4B9;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+	#two {
+		/*width: calc (33% - 10px);*/
+		width: 21em;
+		padding-right: 10px;
+	}
+	#three {
+		width: 21em;
+		padding-right: 10px;
+	}
+	#four {
+		width: 21em;
+		padding-right: 10px;
+	}
+	#five {
+		width: 21em;
+		padding-right: 10px;
+	}
+	#six {
+		width: 21em;
+		padding-right: 10px;
+	}
+	#seven {
+		width: 21em;
+		padding-right: 10px;
+	}
+
+footer {
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
+}
+
