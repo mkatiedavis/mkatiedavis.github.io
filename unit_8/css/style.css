@@ -120,11 +120,12 @@ hr{
 
 @media only screen and (max-width: 768px) {
 	nav {
-		width: 16%;
+		width: 100%;
 	}
 	nav a {
 		float: none;
 		display: block;
+		padding: 2%
 	}
 	h1 {
 		font-size: 2em;
